@@ -45,7 +45,7 @@ button:focus {
     outline: none;
 }
 
-.col-2 {
+.reset{
     grid-column: span 2;
 }
 
@@ -64,10 +64,10 @@ button:focus {
 
 }
 
-#valor-actual {
+#valora {
     font-size: 1.5em;
 }
 
-#valor-anterior {
+#valorb {
     font-size: 2em;
 }
