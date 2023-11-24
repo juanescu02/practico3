@@ -6,15 +6,16 @@
     <title>Calculadora</title>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" />
+    <script src="main.js" type="text/javascript" defer> </script>
 
 </head>
-<body>
+<body onload="init();">
     <div class="contenedor">
         <div class="calculadora">
-            <div class="display">
+            <div class="resultado">
+                <span id="resultado"></span> 
                 <div id="valora"></div>
-                <div id="valorb"></div>
-                <div id="resultado"></div>
+                <div id="valorb"></div>            
             </div>
             <button class="reset" >C</button>
             <button > &larr; </button>
@@ -36,6 +37,6 @@
             <button class="operador" value="igual">=</button>
         </div>
     </div>
-<script src="main.js"></script>
+
 </body>
 </html>

@@ -4,7 +4,7 @@ var valorb;
 var operacion;
 
 
-function init(){
+const init () => {
     var resultado = document.getElementById('resultado');
     var reset = document.getElementById('reset');
     var suma = document.getElementById('suma');
@@ -24,9 +24,7 @@ function init(){
     var cero = document.getElementById('cero');
 
 
-    uno.onclick = function(e){
-        resultado.textContent = resultado.textContent  + "1";
-    }
+   
     dos.onclick = function(e){
         resultado.textContent = resultado.textContent  + "2";
     }
@@ -94,7 +92,7 @@ function init(){
     operacion = "";
   }
 
-  function resolver(){
+  const resolver() => {
     var res = 0;
     switch(operacion){
       case "+":
